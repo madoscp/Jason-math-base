@@ -41,6 +41,22 @@
             width: 700px;   /* 设置图片的宽度 */
             height: auto;   /* 让高度自动调整 */
         }
+        /* 媒体查询，用于调整移动设备上的样式 */
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            header {
+                padding: 10px;
+            }
+            section {
+                margin: 10px;
+                padding: 10px;
+            }
+            .letter img {
+                width: 100%; /* 在移动设备上图片宽度为100% */
+            }
+        }
     </style>
     <script>
         window.MathJax = {
