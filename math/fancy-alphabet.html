@@ -42,6 +42,17 @@
             height: auto;   /* 让高度自动调整 */
         }
     </style>
+    <script>
+        window.MathJax = {
+            tex: {
+                packages: {'[+]': ['bbold']},
+                macros: {
+                    mathbbm: ["\\mathbb{#1}", 1],
+                    mathbbmss: ["\\mathsf{#1}", 1]
+                }
+            }
+        };
+    </script>
 </head>
 <body>
 
